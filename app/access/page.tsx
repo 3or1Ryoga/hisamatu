@@ -252,6 +252,7 @@ export default function AccessPage() {
             <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold text-gray-900">アクセスマップ</h3>
+                {/* 33°51'26.5"N 130°40'13.4"E */}
                 <Image
                   src="/placeholder.svg?height=400&width=600&text=遠賀町の歯医者ひさまつ歯科クリニックアクセスマップ"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック アクセスマップ"
@@ -271,7 +272,7 @@ export default function AccessPage() {
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold text-gray-900">駐車場案内</h3>
                 <Image
-                  src="/placeholder.svg?height=400&width=600&text=遠賀町の歯医者ひさまつ歯科クリニック駐車場案内図"
+                  src="/0613_hisamatu1.JPG?height=400&width=600&text=遠賀町の歯医者ひさまつ歯科クリニック駐車場案内図"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 駐車場案内図"
                   width={600}
                   height={400}

@@ -75,7 +75,7 @@ export default function HomePage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=800&text=遠賀町の歯医者ひさまつ歯科クリニック外観"
+                  src="/0613_hisamatu3.JPG?height=600&width=800&text=遠賀町の歯医者ひさまつ歯科クリニック外観"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 外観"
                   width={800}
                   height={600}
@@ -282,7 +282,7 @@ export default function HomePage() {
                     <p>🚗 無料駐車場5台完備</p>
                   </div>
                   <Image
-                    src="/placeholder.svg?height=200&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック駐車場案内図"
+                    src="/0613_hisamatu1.JPG?height=200&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック駐車場案内図"
                     alt="遠賀町の歯医者 ひさまつ歯科クリニック 駐車場案内図"
                     width={400}
                     height={200}
