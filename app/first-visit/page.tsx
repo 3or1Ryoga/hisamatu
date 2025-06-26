@@ -76,7 +76,7 @@ export default function FirstVisitPage() {
                 </p>
               </div>
               <Image
-                src="/placeholder.svg?height=400&width=800&text=遠賀町の歯医者ひさまつ歯科クリニック初診カウンセリング"
+                src="/0613_hisamatu3.JPG?height=400&width=800&text=遠賀町の歯医者ひさまつ歯科クリニック初診カウンセリング"
                 alt="遠賀町の歯医者 ひさまつ歯科クリニック 初診カウンセリング"
                 width={800}
                 height={400}
@@ -167,7 +167,7 @@ export default function FirstVisitPage() {
                   </p>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック受付"
+                  src="/step1.png?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック受付"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 受付"
                   width={400}
                   height={300}
@@ -177,7 +177,7 @@ export default function FirstVisitPage() {
 
               <div className="grid gap-8 md:grid-cols-2 items-center">
                 <Image
-                  src="/placeholder.svg?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニックカウンセリング"
+                  src="/step2.png?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニックカウンセリング"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック カウンセリング"
                   width={400}
                   height={300}
@@ -210,7 +210,7 @@ export default function FirstVisitPage() {
                   </p>
                 </div>
                 <Image
-                  src="/placeholder.svg?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック検査"
+                  src="/step3.png?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック検査"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 検査"
                   width={400}
                   height={300}
@@ -220,7 +220,7 @@ export default function FirstVisitPage() {
 
               <div className="grid gap-8 md:grid-cols-2 items-center">
                 <Image
-                  src="/placeholder.svg?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック治療計画説明"
+                  src="/step4.png?height=300&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック治療計画説明"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 治療計画説明"
                   width={400}
                   height={300}
@@ -285,7 +285,7 @@ export default function FirstVisitPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=600&text=遠賀町の歯医者ひさまつ小児歯科お子様の治療"
+                  src="/bio9.jpg?height=500&width=600&text=遠賀町の歯医者ひさまつ小児歯科お子様の治療"
                   alt="遠賀町の歯医者 ひさまつ小児歯科 お子様の治療"
                   width={600}
                   height={500}

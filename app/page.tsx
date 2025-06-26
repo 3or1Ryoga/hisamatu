@@ -75,7 +75,7 @@ export default function HomePage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/0613_hisamatu3.JPG?height=600&width=800&text=遠賀町の歯医者ひさまつ歯科クリニック外観"
+                  src="/bio6.jpg?height=600&width=800&text=遠賀町の歯医者ひさまつ歯科クリニック外観"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 外観"
                   width={800}
                   height={600}
@@ -155,7 +155,7 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Image
-                    src="/placeholder.svg?height=300&width=500&text=遠賀町の歯医者ひさまつ歯科クリニック一般歯科治療"
+                    src="/bio5.jpg?height=300&width=500&text=遠賀町の歯医者ひさまつ歯科クリニック一般歯科治療"
                     alt="遠賀町の歯医者 ひさまつ歯科クリニック 一般歯科治療"
                     width={500}
                     height={300}
@@ -173,7 +173,7 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Image
-                    src="/placeholder.svg?height=300&width=500&text=遠賀町の歯医者ひさまつ小児歯科治療"
+                    src="/bio9.jpg?height=300&width=500&text=遠賀町の歯医者ひさまつ小児歯科治療"
                     alt="遠賀町の歯医者 ひさまつ小児歯科 治療風景"
                     width={500}
                     height={300}
@@ -207,7 +207,7 @@ export default function HomePage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック院長久松孝浩"
+                  src="/bio10.jpg?height=500&width=400&text=遠賀町の歯医者ひさまつ歯科クリニック院長久松孝浩"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 院長 久松孝浩"
                   width={400}
                   height={500}

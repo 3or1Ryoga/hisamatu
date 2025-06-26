@@ -97,7 +97,7 @@ export default function ServicesPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=500&width=600&text=遠賀町の歯医者ひさまつ歯科クリニック一般歯科治療"
+                  src="/bio5.jpg?height=500&width=600&text=遠賀町の歯医者ひさまつ歯科クリニック一般歯科治療"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 一般歯科治療"
                   width={600}
                   height={500}
@@ -114,7 +114,7 @@ export default function ServicesPage() {
             <div className="grid gap-12 lg:grid-cols-2 items-center max-w-6xl mx-auto">
               <div className="relative order-2 lg:order-1">
                 <Image
-                  src="/placeholder.svg?height=500&width=600&text=遠賀町の歯医者ひさまつ小児歯科治療風景"
+                  src="/bio9.jpg?height=500&width=600&text=遠賀町の歯医者ひさまつ小児歯科治療風景"
                   alt="遠賀町の歯医者 ひさまつ小児歯科 治療風景"
                   width={600}
                   height={500}

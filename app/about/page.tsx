@@ -126,7 +126,7 @@ export default function AboutPage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=500&text=遠賀町の歯医者ひさまつ歯科クリニック院長久松孝浩"
+                  src="/bio10.jpg?height=600&width=500&text=遠賀町の歯医者ひさまつ歯科クリニック院長久松孝浩"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 院長 久松孝浩"
                   width={500}
                   height={600}
@@ -200,24 +200,24 @@ export default function AboutPage() {
             </div>
             <div className="grid gap-8 md:grid-cols-2">
               <div className="space-y-4">
-                <Image
+                {/* <Image
                   src="/placeholder.svg?height=400&width=600&text=遠賀町の歯医者ひさまつ歯科クリニック待合室"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 待合室"
                   width={600}
                   height={400}
                   className="rounded-lg w-full"
-                />
+                /> */}
                 <h3 className="text-xl font-semibold text-gray-900">待合室</h3>
                 <p className="text-gray-600">明るく開放的な待合室で、リラックスしてお待ちいただけます。</p>
               </div>
               <div className="space-y-4">
-                <Image
+                {/* <Image
                   src="/placeholder.svg?height=400&width=600&text=遠賀町の歯医者ひさまつ歯科クリニック診療室"
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 診療室"
                   width={600}
                   height={400}
                   className="rounded-lg w-full"
-                />
+                /> */}
                 <h3 className="text-xl font-semibold text-gray-900">診療室</h3>
                 <p className="text-gray-600">
                   プライバシーに配慮した個室タイプの診療室で、安心して治療を受けていただけます。
