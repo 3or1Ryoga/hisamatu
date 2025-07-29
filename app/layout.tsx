@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "ひさまつ歯科クリニック",
     images: [ // サイトの代表画像を指定 (推奨)
       {
-        url: 'https://hisamatsu-dental.com/ogp-image.jpg', // OGP画像のURLを指定
+        url: 'https://hisamatu.vercel.app/bio6.jpg?height=600&width=800&text=%E9%81%A0%E8%B3%80%E7%94%BA%E3%81%AE%E6%AD%AF%E5%8C%BB%E8%80%85%E3%81%B2%E3%81%95%E3%81%BE%E3%81%A4%E6%AD%AF%E7%A7%91%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E5%A4%96%E8%A6%B3', // OGP画像のURLを指定
         width: 1200,
         height: 630,
         alt: 'ひさまつ歯科クリニックの外観',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "ひさまつ歯科クリニック | 遠賀町の歯医者・小児歯科",
     description: "福岡県遠賀町の歯医者「ひさまつ歯科クリニック」。痛みの少ない治療と小児歯科の専門性で、ご家族皆様の笑顔をサポートします。",
-    // images: ['https://hisamatsu-dental.com/ogp-image.jpg'], // OGP画像と同じで良い
+    images: ['https://hisamatu.vercel.app/bio6.jpg?height=600&width=800&text=%E9%81%A0%E8%B3%80%E7%94%BA%E3%81%AE%E6%AD%AF%E5%8C%BB%E8%80%85%E3%81%B2%E3%81%95%E3%81%BE%E3%81%A4%E6%AD%AF%E7%A7%91%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E5%A4%96%E8%A6%B3'], // OGP画像と同じで良い
   },
   robots: { // Google検索結果での表示を最適化 (推奨)
     index: true,
