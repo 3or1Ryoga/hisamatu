@@ -5,9 +5,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Phone, MapPin, Clock, Car, Train, Navigation } from "lucide-react"
 
 export default function AccessPage() {
+  // GoogleマップのURLを定義
+  const mapQuery = "33.857361,130.670389" // 33°51'26.5"N 130°40'13.4"E
+  const mapEmbedUrl = `https://maps.google.com/maps?q=${mapQuery}&hl=ja&z=17&output=embed`
+  const mapLinkUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
+
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
+      {/* Header (変更なし) */}
       <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link href="/" className="flex items-center space-x-2">
@@ -38,7 +43,7 @@ export default function AccessPage() {
       </header>
 
       <main>
-        {/* Breadcrumb */}
+        {/* Breadcrumb (変更なし) */}
         <div className="bg-secondary/20 py-4">
           <div className="container mx-auto px-4">
             <nav className="text-sm text-gray-600">
@@ -51,7 +56,7 @@ export default function AccessPage() {
           </div>
         </div>
 
-        {/* Page Header */}
+        {/* Page Header (変更なし) */}
         <section className="py-16 bg-secondary/20">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">診療時間・アクセス</h1>
@@ -59,7 +64,7 @@ export default function AccessPage() {
           </div>
         </section>
 
-        {/* Clinic Information */}
+        {/* Clinic Information (変更なし) */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center space-y-4 mb-16">
@@ -114,7 +119,7 @@ export default function AccessPage() {
           </div>
         </section>
 
-        {/* Hours */}
+        {/* Hours (変更なし) */}
         <section className="py-20 bg-accent/20">
           <div className="container mx-auto px-4">
             <div className="text-center space-y-4 mb-16">
@@ -190,7 +195,7 @@ export default function AccessPage() {
           </div>
         </section>
 
-        {/* Access Information */}
+        {/* Access Information (変更なし) */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="text-center space-y-4 mb-16">
@@ -242,7 +247,8 @@ export default function AccessPage() {
             </div>
           </div>
         </section>
-
+        
+        {/* ▼▼▼ ここから変更 ▼▼▼ */}
         {/* Map and Parking */}
         <section className="py-20 bg-secondary/20">
           <div className="container mx-auto px-4">
@@ -252,14 +258,24 @@ export default function AccessPage() {
             <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold text-gray-900">アクセスマップ</h3>
-                {/* 33°51'26.5"N 130°40'13.4"E */}
-                <Image
-                  src="/placeholder.svg?height=400&width=600&text=遠賀町の歯医者ひさまつ歯科クリニックアクセスマップ"
-                  alt="遠賀町の歯医者 ひさまつ歯科クリニック アクセスマップ"
-                  width={600}
-                  height={400}
-                  className="rounded-lg w-full shadow-lg"
-                />
+                
+                {/* Google Map */}
+                <div className="aspect-square w-full overflow-hidden rounded-lg shadow-lg">
+                  <Link href={mapLinkUrl} target="_blank" rel="noopener noreferrer" aria-label="Googleマップでひさまつ歯科クリニックの場所を開く">
+                    <iframe
+                      src={mapEmbedUrl}
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen={false}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="ひさまつ歯科クリニック Googleマップ"
+                      className="pointer-events-none" // リンクを有効にするため、iframe自体の操作を無効化
+                    ></iframe>
+                  </Link>
+                </div>
+
                 <div className="bg-white p-6 rounded-lg shadow-lg">
                   <h4 className="font-semibold text-gray-900 mb-3">目印・周辺施設</h4>
                   <ul className="space-y-2 text-gray-600">
@@ -276,7 +292,7 @@ export default function AccessPage() {
                   alt="遠賀町の歯医者 ひさまつ歯科クリニック 駐車場案内図"
                   width={600}
                   height={400}
-                  className="rounded-lg w-full shadow-lg"
+                  className="rounded-lg w-full shadow-lg aspect-square object-cover" // マップと高さを合わせるため aspect-square を追加
                 />
                 <div className="bg-white p-6 rounded-lg shadow-lg">
                   <h4 className="font-semibold text-gray-900 mb-3">駐車場について</h4>
@@ -291,8 +307,10 @@ export default function AccessPage() {
             </div>
           </div>
         </section>
+        {/* ▲▲▲ ここまで変更 ▲▲▲ */}
 
-        {/* Reservation Info */}
+
+        {/* Reservation Info (変更なし) */}
         <section className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -319,7 +337,7 @@ export default function AccessPage() {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA Section (変更なし) */}
         <section className="py-20 bg-primary text-white">
           <div className="container mx-auto px-4 text-center">
             <div className="space-y-6">
@@ -338,7 +356,7 @@ export default function AccessPage() {
         </section>
       </main>
 
-      {/* Footer */}
+      {/* Footer (変更なし) */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid gap-8 md:grid-cols-3">

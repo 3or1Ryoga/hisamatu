@@ -155,7 +155,7 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Image
-                    src="/bio5.jpg?height=300&width=500&text=遠賀町の歯医者ひさまつ歯科クリニック一般歯科治療"
+                    src="/bio5_2.jpg?height=300&width=500&text=遠賀町の歯医者ひさまつ歯科クリニック一般歯科治療"
                     alt="遠賀町の歯医者 ひさまつ歯科クリニック 一般歯科治療"
                     width={500}
                     height={300}
@@ -173,7 +173,7 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <Image
-                    src="/bio9.jpg?height=300&width=500&text=遠賀町の歯医者ひさまつ小児歯科治療"
+                    src="/bio9_2.jpg?height=300&width=500&text=遠賀町の歯医者ひさまつ小児歯科治療"
                     alt="遠賀町の歯医者 ひさまつ小児歯科 治療風景"
                     width={500}
                     height={300}
