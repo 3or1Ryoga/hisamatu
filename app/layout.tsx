@@ -14,7 +14,9 @@ export const metadata: Metadata = {
   description:
     "福岡県遠賀町の歯医者「ひさまつ歯科クリニック」。痛みの少ない治療と小児歯科の専門性で、ご家族皆様の笑顔をサポートします。無料駐車場完備、遠賀川駅徒歩19分。",
   keywords: "遠賀町 歯医者, ひさまつ小児歯科, 福岡県 歯科, 小児歯科, 痛みの少ない治療",
-  
+  verification: {
+    google: "5zaUlHBLK7GixqQHH7znXqdM4KdtIPLn3oFiP2lgCQI",
+  },
   // ▼▼▼ ここから追加・修正 ▼▼▼
   icons: {
     icon: '/icon.png', // ファビコンのパス
